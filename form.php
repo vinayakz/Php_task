@@ -32,6 +32,14 @@ $dfbgtse = mysqli_query($conn, $query1);
 		echo "Error: " . $task . "<br>" . mysqli_error($conn);
 	}
 	
+		
+echo 'Username: '.$input1.'<br>';
+echo 'Password: '.str_repeat('*', strlen($input2))."<br>";
+echo 'Fullname: '.$input3."<br>";
+echo 'Mob. No.: '.$input4."<br>";
+echo 'Gender: '.$input5."<br>";
+echo 'Dob: '.$input7."<br>";
+echo 'Marital Status: '.$input6."<br/>";
 	
 
 }
